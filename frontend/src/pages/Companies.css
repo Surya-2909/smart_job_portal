@@ -1,0 +1,133 @@
+.companies-page {
+  min-height: calc(100vh - 73px);
+  background: #f8fafc;
+}
+
+.companies-header {
+  padding: 64px 24px 38px;
+  text-align: center;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.companies-eyebrow,
+.dashboard-eyebrow,
+.resume-eyebrow {
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.companies-header h1,
+.dashboard-heading h1,
+.resume-heading h1 {
+  margin: 10px 0;
+  color: #0f172a;
+  font-size: clamp(32px, 5vw, 46px);
+  letter-spacing: -1px;
+}
+
+.companies-header > p,
+.dashboard-heading > p,
+.resume-heading > p {
+  color: #64748b;
+}
+
+.companies-search {
+  display: block;
+  max-width: 520px;
+  margin: 26px auto 0;
+}
+
+.companies-search input {
+  width: 100%;
+  padding: 13px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 9px;
+  font: inherit;
+}
+
+.companies-content {
+  max-width: 1200px;
+  min-height: 280px;
+  margin: auto;
+  padding: 34px 24px 70px;
+}
+
+.companies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+  gap: 18px;
+}
+
+.company-card {
+  padding: 23px;
+  border: 1px solid #e2e8f0;
+  border-radius: 13px;
+  background: #ffffff;
+}
+
+.company-mark {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.company-card h2 {
+  margin: 0 0 8px;
+  color: #0f172a;
+  font-size: 19px;
+}
+
+.company-card p {
+  margin: 5px 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.company-card .company-job-count {
+  margin: 15px 0;
+  color: #334155;
+  font-weight: 600;
+}
+
+.company-jobs-link {
+  display: inline-block;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.companies-message {
+  padding: 24px;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #475569;
+}
+
+.companies-error button {
+  margin-top: 12px;
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 7px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}

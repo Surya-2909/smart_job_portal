@@ -1,0 +1,15 @@
+# Dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/target/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and local error dumps
+*.log
+backend/backend-error.txt

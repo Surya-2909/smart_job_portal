@@ -1,0 +1,106 @@
+.navbar {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 16px 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  color: #111827;
+  font-size: 24px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* Navigation links */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 24px;
+  flex: 1;
+
+  white-space: nowrap;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #4b5563;
+  font-size: 15px;
+  font-weight: 500;
+
+  transition: 0.2s;
+  white-space: nowrap;
+}
+
+.navbar-links a:hover {
+  color: #2563eb;
+}
+
+/* Login and Register */
+.navbar-auth {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  white-space: nowrap;
+}
+
+.login-button,
+.register-button {
+  text-decoration: none;
+  padding: 9px 18px;
+  border-radius: 7px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: 0.2s;
+}
+
+.navbar-auth button.login-button {
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.navbar-username {
+  color: #4b5563;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login-button {
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.login-button:hover {
+  background: #eff6ff;
+}
+
+.register-button {
+  color: white;
+  background: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.register-button:hover {
+  background: #1d4ed8;
+}
